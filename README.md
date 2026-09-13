@@ -1,3 +1,5 @@
 # rsschool-cv
 
-[My CV](https://Mariannadtd.github.io/rsschool-cv/cv)
+[Markdown CV](https://Mariannadtd.github.io/rsschool-cv/cv)
+
+[HTML CV](https://Mariannadtd.github.io/rsschool-cv/)
