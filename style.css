@@ -14,12 +14,12 @@ nav a { text-decoration: none; padding: 10px 0; }
 .hero { display: grid; grid-template-columns: 1fr 280px; align-items: center; gap: 48px; padding: 64px 0; }
 .eyebrow { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1.8px; color: var(--muted); margin: 0 0 16px; }
 h1 { font-size: clamp(60px, 8vw, 100px); letter-spacing: -6px; line-height: 1.05; margin: 0; }
-h1 span { color: #698438; }
+h1, h2, h3, h1 span { color: #172d55; }
 .role { font-size: 23px; margin: 18px 0 12px; }
 .intro { color: var(--muted); font-size: 15px; margin-bottom: 28px; }
 .button { display: inline-block; background: #dff28e; padding: 12px 20px; border-radius: 5px; font-size: 13px; font-weight: 700; text-decoration: none; }
-.portrait { padding: 13px 13px 0; background: #e7ebdf; border-radius: 140px 140px 8px 8px; transform: rotate(3deg); }
-.portrait img { width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 130px 130px 4px 4px; display: block; }
+.portrait { margin: 0; }
+.portrait img { width: 100%; height: auto; display: block; }
 .portrait p { text-align: center; font-size: 11px; letter-spacing: 1px; margin: 14px 0; }
 .grid { display: grid; grid-template-columns: 260px minmax(0, 1fr); border-top: 1px solid var(--line); }
 aside { padding: 40px 36px 40px 0; border-right: 1px solid var(--line); font-size: 12px; }
