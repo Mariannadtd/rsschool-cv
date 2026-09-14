@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Marina — front-end developer. Skills, projects and contacts.">
+  <title>Marina — Front-end Developer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="page">
+<header><a class="brand" href="#top" aria-label="Back to top">m.</a><nav aria-label="Main navigation"><ul><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a href="#code">Code</a></li><li><a href="#contacts">Contacts</a></li></ul></nav></header>
+<main id="main">
+<section class="hero" id="top" aria-labelledby="name"><div><p class="eyebrow">Curriculum vitae / 2026</p><h1 id="name">Marina<span>.</span></h1><p class="role">Front-end developer</p><p class="intro">Turning ideas into thoughtful interfaces.<br>Exploring the next chapter of the web.</p><a class="button" href="#projects">Explore my projects ↗</a></div><div class="portrait"><img src="assets/avatar.jpg" alt="Marina, front-end developer" width="320" height="320"><p>Vue · React · TypeScript</p></div></section>
+<div class="grid"><aside aria-label="Skills and background">
+<section id="contacts"><p class="eyebrow">01 / Get in touch</p><h2>Contacts</h2><ul class="contacts"><li><span>GitHub</span><a href="https://github.com/Mariannadtd">Mariannadtd ↗</a></li><li><span>Discord</span>mariannarom</li></ul></section>
+<section id="skills"><p class="eyebrow">02 / My toolkit</p><h2>Skills</h2><ul class="tags"><li>HTML / Pug</li><li>CSS / Sass / SCSS</li><li>Bootstrap</li><li>JavaScript</li><li>TypeScript</li><li>Vue.js</li><li>Git / GitHub</li><li>VS Code</li></ul><p class="label">Learning through projects</p><ul class="learning"><li>React / Next.js</li><li>Web3 basics: MetaMask integration</li></ul></section>
+<section id="education"><p class="eyebrow">03 / Always learning</p><h2>Education</h2><ul class="contacts"><li><strong>RS School</strong><span>Currently studying</span></li><li><strong>Independent learning</strong><span>Front-end development through practical projects</span></li></ul></section>
+<section id="english"><h2>English</h2><p><strong class="level">B2</strong> Upper-Intermediate</p></section>
+</aside><div class="content">
+<section id="about"><p class="eyebrow">04 / A little about me</p><h2>Building for people.</h2><p>I am a front-end developer with experience in HTML, CSS, JavaScript, and Vue.js. I am expanding my skills in React, Next.js, and TypeScript by building personal projects.</p><p>I enjoy turning ideas into functional, user-friendly interfaces and understanding how they work behind the scenes. My goal is to grow as a developer, with a particular focus on Web3 and building decentralized applications.</p></section>
+<section id="projects"><p class="eyebrow">05 / Selected work</p><h2>Projects</h2>
+<article><h3>Crypto Cards <span>01</span></h3><p>A web application for displaying cryptocurrency information, with utilities for formatting prices and percentage changes.</p><p class="tech">Next.js / React / TypeScript</p><a href="https://github.com/Mariannadtd/crypto-cards">View source code ↗</a></article>
+<article><h3>Door Renaissance <span>02</span></h3><p>An online store project for doors, flooring, fittings, and ceilings.</p><p class="tech">Vue.js</p><a href="https://github.com/Mariannadtd/door-renaissance-frontend">View source code ↗</a></article>
+<article><h3>Make Your Burger <span>03</span></h3><p>An application for choosing ingredients and ordering a burger.</p><p class="tech">Vue.js</p><a href="https://github.com/Mariannadtd/Make-your-burger">View source code ↗</a></article></section>
+<section id="code"><p class="eyebrow">06 / Under the hood</p><h2>Code example</h2><p>A reusable React button with TypeScript props from my Crypto Cards project. Styling is simplified for this example.</p><div class="code-label">Button.tsx <span>React / TypeScript</span></div><pre tabindex="0"><code>import type { ComponentProps } from "react";
+
+type ButtonProps = ComponentProps&lt;"button"&gt;;
+
+export default function Button({
+  children,
+  className = "",
+  type = "button",
+  ...props
+}: ButtonProps) {
+  return (
+    &lt;button type={type} className={className} {...props}&gt;
+      {children}
+    &lt;/button&gt;
+  );
+}</code></pre><a class="source" href="https://github.com/Mariannadtd/crypto-cards/blob/main/app/components/UI/Button.tsx">Full source on GitHub ↗</a></section>
+</div></div></main>
+<footer><a href="https://github.com/Mariannadtd">© 2026 Marina / GitHub ↗</a><a href="cv">Markdown version ↗</a><a href="https://rs.school/courses/javascript"><img src="assets/rs-school-logo.svg" width="100" height="38" alt="RS School JavaScript course"></a></footer>
+</div></body></html>
